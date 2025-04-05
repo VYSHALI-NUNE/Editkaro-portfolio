@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Editkaro.in Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Editkaro.in Portfolio</h1>
+    <p>Explore our high-quality edits — from shorts to anime to ads.</p>
+  </header>
+
+  <section class="filters">
+    <button data-category="all" class="active">All</button>
+    <button data-category="short">Short-form</button>
+    <button data-category="long">Long-form</button>
+    <button data-category="gaming">Gaming</button>
+    <button data-category="football">Football</button>
+    <button data-category="ecommerce">eCommerce</button>
+    <button data-category="documentary">Documentary</button>
+    <button data-category="color">Color Grading</button>
+    <button data-category="anime">Anime</button>
+    <button data-category="ads">Ads</button>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <!-- Example Video Cards -->
+    <div class="video-card" data-category="short">
+      <video src="videos/short1.mp4" muted loop autoplay></video>
+      <h3>Short-form Video 1</h3>
+    </div>
+
+    <div class="video-card" data-category="gaming">
+      <video src="videos/gaming1.mp4" muted loop autoplay></video>
+      <h3>Gaming Video 1</h3>
+    </div>
+
+    <div class="video-card" data-category="football">
+      <video src="videos/football1.mp4" muted loop autoplay></video>
+      <h3>Football Edit 1</h3>
+    </div>
+
+    <div class="video-card" data-category="ads">
+      <video src="videos/ad1.mp4" muted loop autoplay></video>
+      <h3>Ad Video 1</h3>
+    </div>
+
+    <div class="video-card" data-category="anime">
+      <video src="videos/anime1.mp4" muted loop autoplay></video>
+      <h3>Anime Video 1</h3>
+    </div>
+
+    <div class="video-card" data-category="documentary">
+      <video src="videos/doc1.mp4" muted loop autoplay></video>
+      <h3>Documentary Style 1</h3>
+    </div>
+
+    <div class="video-card" data-category="color">
+      <video src="videos/color1.mp4" muted loop autoplay></video>
+      <h3>Color Grading 1</h3>
+    </div>
+
+    <div class="video-card" data-category="long">
+      <video src="videos/long1.mp4" muted loop autoplay></video>
+      <h3>Long-form Video 1</h3>
+    </div>
+
+    <div class="video-card" data-category="ecommerce">
+      <video src="videos/ecom1.mp4" muted loop autoplay></video>
+      <h3>eCommerce Ad 1</h3>
+    </div>
+
+    <!-- You can add more videos here similarly -->
+  </section>
+
+  <footer>
+    <p>© 2025 Editkaro.in </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
